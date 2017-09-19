@@ -1,0 +1,22 @@
+<mod>
+	<info>
+		<!-- Information about the Mod, the author and version information -->
+		<!-- These are displayed in the SDX Launcher -->
+		<author>sphereii</author>
+		<name>Bad Company Zombies and Bandits</name>
+		<description>Bad Company and Zombies are intermixed</description>
+		<mod_version>1.0</mod_version>
+		<game_version>16.3</game_version>
+		<launcher_version>0.0.0</launcher_version>
+	</info>
+
+	<!-- This references any config files that SDX needs to merge into your files -->
+	<config_mods>
+		<import file="Config\entityclasses.xml" />
+		<import file="Config\entitygroups.xml" />
+		<import file="Config\loot.xml" />
+		<import file="Config\items.xml" />
+		<import file="Config\spawning.xml" />
+	</config_mods>
+
+</mod>
